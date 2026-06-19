@@ -8,9 +8,11 @@ import subprocess
 
 PASSWORD="1"
 
-SOUND_FILE_1="fs.mp3"
-VIDEO_FILE="g.mp4"
-FOTO_RANSOM="Yes.jpg"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+SOUND_FILE_1= os.path.join(BASE_DIR, "fs.mp3")
+VIDEO_FILE= os.path.join(BASE_DIR, "g.mp4")
+FOTO_RANSOM= os.path.join(BASE_DIR, "Yes.jpg")
 
 TIMER_SECONDS=60
 
